@@ -1,0 +1,71 @@
+html,body {
+    height: 100px;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url("Nature_1_image.jpg");
+    min-height: 650%;
+}
+
+.pimg2 {
+    background-image: url("Nature_2_image.jpg");
+    min-height: 500px;
+}
+
+.pimg3 {
+    background-image: url("Nature_3_image.jpg");
+    min-height: 500px;
+}
+
+.pimg4 {
+    background-image: url("Nature_image.jpg");
+    min-height: 500px;
+}
+
+.pimg1, 
+.pimg2, 
+.pimg3 {
+  
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 5px;
+}
+
+.textBg {
+    background-color: #313534;
+    color: rgb(223, 218, 218);
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.section {
+    padding: 50px 80px; 
+    text-align: center;
+}
+
+.section-light {
+    background-color: #f0ebeb;
+    color: #211f1f;
+}
+
+.section_Dark{
+    background-color: #f4efef;
+    color: #1b1a1a;
+}
